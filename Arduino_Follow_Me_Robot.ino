@@ -4,7 +4,7 @@
 // To install the libraries ( first download the AF Motor driver, NewPing and Servo Library zip file //
 // then Go to Skecth >> Include Library >> Add .Zip Library >> Select The downloaded zip file >> Done) //
 // Contact me on instagram for any question(Insta Id : DIY.Builder)
-
+// accept this pull request 
 
 #include<NewPing.h>
 #include<Servo.h>
@@ -103,11 +103,7 @@ if((Right_Value==1) && (distance>=10 && distance<=30)&&(Left_Value==1)){
   Motor4.setSpeed(0);
   Motor4.run(RELEASE);
 }else if(distance > 1 && distance < 10) {
-  Motor1.setSpeed(0);
-  Motor1.run(RELEASE);
-  Motor2.setSpeed(0);
-  Motor2.run(RELEASE);
-  Motor3.setSpeed(0);
+  Motor1.run
   Motor3.run(RELEASE);
   Motor4.setSpeed(0);
   Motor4.run(RELEASE);
